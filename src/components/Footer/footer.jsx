@@ -1,8 +1,6 @@
 import './Footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 function Footer(){
     return( 
         <div id='footer' className=' p-2 bg-dark'>

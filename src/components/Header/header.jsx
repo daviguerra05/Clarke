@@ -1,11 +1,9 @@
 import './Header.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
-
-
 function Header(){
     return( 
-        <div id='header' className=' p-2 bg-dark'>
+        <header className=' p-2 bg-dark'>
             <div className='m-3'>
                 <a className='text-decoration-none text-white' href='#home'>CLARKE</a>
             </div>
@@ -15,11 +13,8 @@ function Header(){
             <div className='m-3'><a className='text-decoration-none text-white' href='#footer'>Sobre Nós</a></div>
             <div className='m-3'><a className='text-decoration-none text-white' href='#login'>Comprar</a></div> 
             </div>
-            
-            
-        </div>
-        
+        </header>
     )
 } 
 
-export default Header
+export default Header   
