@@ -9,19 +9,18 @@ import Home from './components/Home/home.jsx'
 import './css/index.css'
 
  /* criando a função createBrowser */
- const router = createBrowserRouter([
+const router = createBrowserRouter([
   {
-     /* chamando o elemento principal(pai) */
+    /* chamando o elemento principal(pai) */
     path: '/', element: <App />,
-     /*  chamando o elemento de erro*/
+    /*  chamando o elemento de erro*/
     errorElement: <Error />,
-  
-     /* chamando elementos filhos */
-  children:[
-    {path: '/', element:<Home />},
-  ]
+    /* chamando elementos filhos */
+    children:[
+      {path: '/', element:<Home />},
+    ]
   }
-  ])
+])
 
   ReactDOM.createRoot(document.getElementById('root')).render(
     <React.StrictMode>
