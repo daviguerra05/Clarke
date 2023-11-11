@@ -7,6 +7,9 @@ import App from './App.jsx'
 import Error from './Error.jsx'
 import Home from './componentes/Home/Home.jsx'
 import Tech from './componentes/Tech/Tech.jsx'
+import Sobre from './componentes/Sobre/Sobre.jsx'
+import Login from './componentes/Login/Login.jsx'
+
 import './css/index.css'
 
  /* criando a função createBrowser */
@@ -20,7 +23,9 @@ const router = createBrowserRouter([
     /* chamando elementos filhos */
     children:[
       {path: '/', element:<Home/>},
-      {path:"/Tech", element:<Tech/>}
+      {path:"/Tech", element:<Tech/>},
+      {path:"/Sobre", element:<Sobre/>},
+      {path:"/Login", element:<Login/>}
     ]
   }
 ])
