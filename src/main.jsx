@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 import App from './App.jsx'
 import Error from './Error.jsx'
 import Home from './components/Home/home.jsx'
+import Tech from './components/Pages/Tecnologias/tech.jsx'
 import './css/index.css'
 
  /* criando a função createBrowser */
@@ -13,11 +14,14 @@ const router = createBrowserRouter([
   {
     /* chamando o elemento principal(pai) */
     path: '/', element: <App />,
+
     /*  chamando o elemento de erro*/
     errorElement: <Error />,
     /* chamando elementos filhos */
     children:[
       {path: '/', element:<Home />},
+      {path:"/tech", element:<Tech />},
+
     ]
   }
 ])

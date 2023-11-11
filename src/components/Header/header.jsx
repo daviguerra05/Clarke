@@ -14,7 +14,7 @@ function Header(){
 
             <div id='nav'> 
                 <div className='m-3'>
-                    <NavLink to="/Tecnologias" className='text-decoration-none text-white' href='#solucoes'>
+                    <NavLink to="/tech" className='text-decoration-none text-white' href='#tech'>
                         Tecnologias
                     </NavLink>
                 </div>
