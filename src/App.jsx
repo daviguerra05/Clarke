@@ -1,11 +1,12 @@
-import Header from "./components/Header/header";
-import Home from "./components/Home/home";
+import Nav from "./componentes/Nav/Nav";
+import Home from "./home";
+import { Outlet } from 'react-router-dom';
 
 function App() {
   return (
     <div>
-      <Header/>
-      <Home/>
+      <Nav/>
+      <Outlet/>
     </div>
   )
 }

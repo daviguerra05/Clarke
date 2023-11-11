@@ -1,5 +1,5 @@
 import './Home.css'
-import Image from "../../assert/pylon-503935.jpg"
+import Image from "./assert/img1.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Home(){

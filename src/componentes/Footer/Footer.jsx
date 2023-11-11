@@ -1,4 +1,4 @@
-import './Footer.css'
+import './footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Footer(){
