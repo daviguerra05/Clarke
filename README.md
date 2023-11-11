@@ -28,6 +28,4 @@ Após a instalação, execute para inciar:
   npm run dev
 ```
 
-
 ![Logo](https://i.pinimg.com/originals/2b/eb/dc/2bebdcec5d81df477cf9a48d7347af71.gif)
-
