@@ -1,5 +1,4 @@
 import Nav from "./componentes/Nav/Nav";
-import Home from "./home";
 import { Outlet } from 'react-router-dom';
 
 function App() {

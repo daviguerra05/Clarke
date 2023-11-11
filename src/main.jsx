@@ -5,7 +5,7 @@ import { createBrowserRouter, RouterProvider} from 'react-router-dom'
 /* importando os elementos*/
 import App from './App.jsx'
 import Error from './Error.jsx'
-import Home from './home.jsx'
+import Home from './componentes/Home/Home.jsx'
 import Tech from './componentes/Tech/Tech.jsx'
 import './css/index.css'
 

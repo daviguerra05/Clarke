@@ -12,4 +12,8 @@ header {
 #nav {
   display: flex;
   flex-direction: row;
+}
+
+.nav-item a {
+  color: white;
 }/*# sourceMappingURL=header.css.map */
