@@ -19,7 +19,7 @@ function Nav(){
                             Tecnologias
                         </NavLink>
                     </div>
-                    
+
                     <div className='m-3'>
                         <NavLink to="/Sobrenos" className='text-decoration-none text-white nav-link' href='#footer'>
                             Sobre Nós
@@ -33,15 +33,13 @@ function Nav(){
                     </div> 
 
                     <div className='m-3'>
-                        <NavDropdown title="Dropdown" menuVariant="dark">
+                        <NavDropdown title="Usuário" menuVariant="dark">
                             <NavDropdown.Item>
-                                Action
+                                Criar Conta
                             </NavDropdown.Item>
-
                             <NavDropdown.Item>
-                                Another action
+                                Login
                             </NavDropdown.Item>
-
                             <NavDropdown.Item>
                                 Something
                             </NavDropdown.Item>
