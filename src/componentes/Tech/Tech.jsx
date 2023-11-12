@@ -6,7 +6,7 @@ function Tech(){
         <>
             <div id='Tech'>
                 <div className='d-flex justify-content-center mt-5 pt-5'>
-                    <h1>Soluções</h1>
+                    <h1 className='text-center'>Soluções</h1>
                 </div>
 
                 <div id='Tech' className="row mt-5 d-flex justify-content-around">
