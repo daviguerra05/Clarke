@@ -1,22 +1,26 @@
-import './footer.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './footer.css'
 
 function Footer(){
     return( 
-        <div id='footer' className=' p-2 bg-dark'>
-            <div className='m-3'>
-                <a className='text-decoration-none text-white' href='#home'>CLARKE</a>
+        <footer>
+            <div>
+                <h1>Clarke</h1>
+                <p>AQUIIII</p>
             </div>
-
-            <div id='nav'> 
-            <div className='m-3'><a className='text-decoration-none text-white' href='#solucoes'>Tecnologias</a></div>
-            <div className='m-3'><a className='text-decoration-none text-white' href='#footer'>Sobre Nós</a></div>
-            <div className='m-3'><a className='text-decoration-none text-white' href='#login'>Comprar</a></div> 
+            <div>
+                <h1>Equipe</h1>
+                <a href="https://www.github.com/daviguerra05" target='_blank'>Davi Passanha de Sousa Guerra</a>
+                <a href="https://www.github.com/dejesuscaua" target='_blank'>Cauã Gonçalves de Jesus</a>
+                <a href="https://www.github.com/ruiasiqueira" target='_blank'>Rui Amorim Siqueira</a>
+                <a href="https://www.github.com/Carlosqmenezes" target='_blank'>Carlos Eduardo de Queiroz Menezes</a>
+                <a href="https://www.github.com/luigiferrarasinno" target='_blank'>Luigi Ferrara Sinno</a>
             </div>
-            
-            
-        </div>
-        
+            <div>
+                <h1>Contato</h1>
+                <a href="mailto:clarke@gmail.com.br">clarke@gmail.com.br</a>
+            </div>
+        </footer>
     )
 } 
 

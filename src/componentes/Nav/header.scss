@@ -8,6 +8,7 @@ header{
     white-space: nowrap;
 }
 
+
 header div{
   width: auto;
 }
@@ -24,4 +25,7 @@ header div{
   a{
     color: white;
   }
+}
+.nav-item a:hover{
+  color: white;
 }

@@ -22,4 +22,8 @@ header div {
 
 .nav-item a {
   color: white;
+}
+
+.nav-item a:hover {
+  color: white;
 }/*# sourceMappingURL=header.css.map */
