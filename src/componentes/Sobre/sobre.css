@@ -17,14 +17,14 @@
 }
 
 #images a {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   transition: transform 0.3s ease-in-out;
 }
 
 #images img {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 15git0px;
 }
 #images img:hover {
   transform: scale(1.2); /* Aumenta o tamanho para 120% do tamanho original */
@@ -35,6 +35,18 @@
   #box-sobre {
     font-size: 1.5rem;
   }
+
+  
+#images a {
+  width: 100px;
+  height: 100px;
+  
+}
+
+#images img {
+  width: 100px;
+  height: 100px;
+}
 }
 
 @media (max-width: 700px) {
