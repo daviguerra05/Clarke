@@ -10,11 +10,11 @@ function Footer(){
             </div>
             <div>
                 <h1>Equipe</h1>
-                <a href="https://www.github.com/daviguerra05" target='_blank'>Davi Passanha de Sousa Guerra</a>
-                <a href="https://www.github.com/dejesuscaua" target='_blank'>Cauã Gonçalves de Jesus</a>
-                <a href="https://www.github.com/ruiasiqueira" target='_blank'>Rui Amorim Siqueira</a>
-                <a href="https://www.github.com/Carlosqmenezes" target='_blank'>Carlos Eduardo de Queiroz Menezes</a>
-                <a href="https://www.github.com/luigiferrarasinno" target='_blank'>Luigi Ferrara Sinno</a>
+                <a className='text-white' href="https://www.github.com/daviguerra05" target='_blank'>Davi Passanha de Sousa Guerra</a>
+                <a className='text-white'href="https://www.github.com/dejesuscaua" target='_blank'>Cauã Gonçalves de Jesus</a>
+                <a className='text-white'href="https://www.github.com/ruiasiqueira" target='_blank'>Rui Amorim Siqueira</a>
+                <a className='text-white'href="https://www.github.com/Carlosqmenezes" target='_blank'>Carlos Eduardo de Queiroz Menezes</a>
+                <a className='text-white'href="https://www.github.com/luigiferrarasinno" target='_blank'>Luigi Ferrara Sinno</a>
             </div>
             <div>
                 <h1>Contato</h1>
