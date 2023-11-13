@@ -56,8 +56,8 @@ export default function Login() {
                         />
                     </Form.Group>
 
-                    <Button variant="primary" type="submit">
-                        Submit
+                    <Button className='btn btn-success' variant="primary" type="submit">
+                        Enviar
                     </Button>
                 </Form>
             </Fd>

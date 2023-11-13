@@ -18,7 +18,7 @@ function Footer(){
             </div>
             <div>
                 <h1>Contato</h1>
-                <a href="mailto:clarke@gmail.com.br">clarke@gmail.com.br</a>
+                <a className='text-white' href="mailto:clarke@gmail.com.br">clarke@gmail.com.br</a>
             </div>
         </footer>
     )
