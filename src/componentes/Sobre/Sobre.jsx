@@ -7,7 +7,7 @@ import Luigi from "/src/assets/luigi.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Sobre(){
-    return(
+    return( 
             <div id='Sobre'>
                 <div id='sobre-page' className=''>
                     <div className='pt-5 mt-5'>
