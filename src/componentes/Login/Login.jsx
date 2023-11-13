@@ -3,6 +3,7 @@ import { useForm } from 'react-hook-form';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import styled from 'styled-components';
+import { useNavigate } from 'react-router-dom';
 
 const Fd = styled.div`
     width: 100%;
@@ -17,6 +18,7 @@ const Fd = styled.div`
 
 export default function Login() {
     const { register, handleSubmit, setValue } = useForm();
+    const navigate = useNavigate();
 
     useEffect(() => {
         const storedCredentials = localStorage.getItem('userCredentials');
@@ -29,8 +31,10 @@ export default function Login() {
     }, [setValue]);
 
     const onSubmit = (data) => {
+        
         localStorage.setItem('userCredentials', JSON.stringify(data));
         alert('Login feito com sucesso!')
+        navigate('/');
     };
 
     return (
