@@ -6,7 +6,7 @@ function Footer(){
         <footer>
             <div>
                 <h1>Clarke</h1>
-                <p>AQUIIII</p>
+                <p>THE REAL CHANGE</p>
             </div>
             <div>
                 <h1>Equipe</h1>
