@@ -1,5 +1,4 @@
-import './Sobre.css'
-import Image from "/src/assets/img1.jpg"
+import './sobre.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Sobre(){
@@ -18,4 +17,4 @@ function Sobre(){
     )
 } 
 
-export default Home
+export default Sobre
