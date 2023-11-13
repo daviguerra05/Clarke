@@ -10,7 +10,6 @@ const Fd = styled.div`
     display: flex;
     align-items: center;
     justify-content: center;
-    
     Form {
         width: 50%;
     }
@@ -31,6 +30,7 @@ export default function Login() {
 
     const onSubmit = (data) => {
         localStorage.setItem('userCredentials', JSON.stringify(data));
+        alert('Login feito com sucesso!')
     };
 
     return (
