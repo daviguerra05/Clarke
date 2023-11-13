@@ -1,4 +1,6 @@
 import './Tech.css'
+import Eletrica from "/src/assets/eletrica.jpg"
+import Susten from "/src/assets/susten.jpg"
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Tech(){
@@ -21,15 +23,15 @@ function Tech(){
                         beneficiando a todos.
                     </p>
                 </div>
-                <div className="col-4">
-                    <p>Imagem</p>
+                <div className="col-5">
+                    <img src= {Eletrica} alt="Imagem" />
                 </div>
 
                 <div  className="row p-5 mt-5 d-flex justify-content-around">
-                <div className="col-4">
-                    <p>Imagem</p>
+                <div className="col-5">
+                <img src= {Susten} alt="Imagem" />
                 </div>
-                <div className="col-6">
+                <div id='image-tech' className="col-6">
                     <h1>Sutentabilidade</h1>
                     <p>
                         Nossa solução não só reduz os custos de geração de energia,
